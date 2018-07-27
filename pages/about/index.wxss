@@ -1,0 +1,12 @@
+.container {
+  font-size: 28rpx;
+  text-align: center;
+  margin-top: 15rpx;
+  color: #999;
+}
+
+.avatars-img {
+  width: 160rpx; 
+  height: 160rpx; 
+  border-radius:50%;
+}

@@ -1,0 +1,19 @@
+<view>
+  <view class="container">
+    <image src="{{imgUrl}}" class="img"></image>
+    <view class="car-detail">
+      <view>{{zhName}}</view>
+      <view>{{enName}}</view>
+      <view>{{origin}}</view>
+      <view>{{company}}</view>
+      <view>{{createdTime}}</view>
+      <view>{{founder}}</view>
+    </view>
+  </view>
+  
+  <view class="cars-into-title">车标故事</view>
+  <view class="cars-into" >
+    <import src="../../wxParse/wxParse.wxml"/>
+    <template is="wxParse" data="{{wxParseData:briefInto.nodes}}"/>
+  </view>
+</view>

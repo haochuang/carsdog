@@ -1,0 +1,45 @@
+page {
+  height: 100%; 
+}
+
+.pic-item {
+  width: 170rpx;
+  height: 170rpx;
+  display:inline-block; 
+  border: 1px solid #eee; 
+  box-sizing: border-box; 
+  padding: 10rpx; 
+  text-align: center;
+}
+
+.nav {
+  position: fixed; 
+  height:100%;
+  right: 16rpx;
+  top: 0;
+  font-size: 26rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.category {
+  padding-left: 15rpx;
+  height: 60rpx; 
+  line-height: 60rpx;
+  background: #eee; 
+  color: #000;
+  font-weight: bold;
+}
+
+.img-wrapper {
+  width: 720rpx;
+  margin-left: 15rpx;
+  margin-top: 15rpx;
+}
+
+.car-name {
+  font-size: 19rpx;
+  margin-top: 8rpx;
+}

@@ -1,0 +1,34 @@
+/* pages/detail/index.wxss */
+
+.container {
+  display: flex;
+  margin-bottom: 20rpx;
+}
+
+.img {
+  height: 250rpx; 
+  width: 250rpx; 
+  margin-left: 20rpx; 
+  border: 1px solid #eee;
+}
+
+.car-detail {
+  margin-left: 25rpx;
+  flex: 1;
+  font-size: 26rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cars-into {
+  padding: 20rpx;
+}
+
+.cars-into-title {
+  height: 60rpx;
+  line-height: 60rpx;
+  background: #eee;
+  font-size: 30rpx;
+  padding-left: 20rpx;
+}
