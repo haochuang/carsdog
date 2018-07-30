@@ -1,4 +1,4 @@
-const data = require('../../data.js')
+const data = require('../../data/data.js')
 const WxParse = require('../../wxParse/wxParse.js')
 
 // pages/detail/index.js
