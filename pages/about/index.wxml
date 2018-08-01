@@ -1,6 +1,0 @@
-
-<view class="container">
-  <image src="./../../imgs/avatars.jpeg" class="avatars-img"></image>
-  <view>该小程序仅为了个人方便查询 & 记忆车标所创建</view>
-  <view>无任何商业用途</view>
-</view>

@@ -1,5 +1,15 @@
 # 车标速查
 
-![](https://ws3.sinaimg.cn/large/006tNc79gy1fts607fb0hj30760763zi.jpg)
+``` bash
+# install dependencies
+npm install
 
-数据来自 [车标网](http://www.chebiao.cc/)，感谢！
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```

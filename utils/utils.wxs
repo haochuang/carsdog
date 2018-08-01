@@ -1,7 +1,0 @@
-var getCarName = function(str) {
-  return str.replace('品牌名称：', '').trim()
-}
-
-module.exports = {
-  getCarName: getCarName
-}
